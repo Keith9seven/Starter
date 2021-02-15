@@ -1,15 +1,15 @@
 @font-face{
-	src: url(Fonts/RobotoSlab-Regular.ttf);
+	src: url(/Fonts/RobotoSlab-Regular.ttf);
 	font-family: Roboto;
 }
 
 @font-face{
-	src: url(Fonts/RobotoSlab-ExtraLight.ttf);
+	src: url(/Fonts/RobotoSlab-ExtraLight.ttf);
 	font-family: RobotoEB;
 }
 
 @font-face{
-	src: url(Fonts/RobotoSlab-SemiBold.ttf);
+	src: url(/Fonts/RobotoSlab-SemiBold.ttf);
 	font-family: RobotoSB;
 }
 
