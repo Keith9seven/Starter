@@ -1,0 +1,68 @@
+@font-face{
+	src: url(fonts/RobotoSlab-Regular.ttf);
+	font-family: Roboto;
+}
+
+@font-face{
+	src: url(fonts/RobotoSlab-ExtraLight.ttf);
+	font-family: RobotoEB;
+}
+
+@font-face{
+	src: url(fonts/RobotoSlab-SemiBold.ttf);
+	font-family: RobotoSB;
+}
+
+*{
+	font-family: Roboto;
+	color:white;
+	font-size: 20px;
+}
+
+body, html { 
+	height: 100%;
+	width: 100%;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.btn{
+	font-family: RobotoSB;
+	background: white no-repeat left center fixed; 
+	border: solid white 1px;
+	border-radius: 300px;
+	text-transform: uppercase;
+	padding: 0.5rem 1.5rem;
+	color: black; 
+	font-size: 0.6rem;
+	transition: all 0.2s;
+}
+
+.btn:hover {
+	border-color:black;
+	background-color: black;
+	color: white;
+	transform: scale(1.1);
+}
+
+
+
+.text-uppercase {  
+	font-family: RobotoEB;
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+}
+
+hr{
+	border: solid white 2px;
+	max-width: 65px;
+	border-radius: 25px;
+}
+
+.buffer{
+	height: 10rem;
+}
